@@ -121,13 +121,14 @@ body {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(189, 17, 17, 0) 100%);
 }
-.coding-description2{
+
+.coding-description2 {
     display: flex;
     gap: 100px;
     padding: 48px 48px;
     align-items: center;
     border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .coding-details h3 {
@@ -161,29 +162,154 @@ body {
 /* web development sectin end */
 
 /* my inspiration seciton start */
-.my-inspiration{
+.my-inspiration {
     margin-top: 100px;
 }
-.inspiration-details{
+
+.inspiration-details {
     text-align: center;
 }
-.inspiration-details h2{
+
+.inspiration-details h2 {
     font-size: 32px;
     font-weight: 800;
 }
-.inspiration-details p{
+
+.inspiration-details p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin-top: 24px;
     opacity: 0.7;
 }
-.inspiration-video{
+
+.inspiration-video {
     border-radius: 16px;
     margin-top: 50px;
     border: 1px solid rgba(13, 19, 33, 0.2);
 }
-.inspiration-video video{
+
+.inspiration-video video {
     padding: 32px 32px;
 }
+
 /* my inspiration seciton end */
+
+/* current target seciton start */
+.current-target {
+    margin-top: 150px;
+}
+
+.current-details {
+    text-align: center;
+}
+
+.current-details h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.current-details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+.current-language{
+   display: flex;
+   gap: 24px;
+}
+
+.html {
+    width: 364px;
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 28px;
+}
+
+.html p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.html a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+}
+
+
+.css {
+    width: 364px;
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.css h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 28px;
+}
+
+.css p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.css a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+}
+
+
+.js {
+    width: 364px;
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.js h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 28px;
+}
+
+.js p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.js a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+}
+
+/* current target seciton end */
+
+/* next target section start */
