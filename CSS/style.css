@@ -1,0 +1,28 @@
+
+/* common css style start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+/* common css style end */
+
+/* header section style start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+/* header section style end */
