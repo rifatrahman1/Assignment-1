@@ -1,32 +1,35 @@
-
 /* common css style start */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
 }
+
 /* common css style end */
 
 /* header section style start */
-.navbar{
+.navbar {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
 }
-.navbar h2{
+
+.navbar h2 {
     font-size: 28px;
     font-weight: 800;
     color: rgb(13, 19, 33);
 }
-.navbar a{
+
+.navbar a {
     font-size: 20px;
     font-weight: 600;
     padding: 17px 24px;
@@ -37,28 +40,33 @@ body{
 }
 
 /* banner section start */
-.banner{
+.banner {
     height: 652px;
     margin-top: 50px;
     background-image: url('../images/Hero-bg.png');
 }
-.banner-description{
+
+.banner-description {
     padding-top: 26px;
     text-align: center;
 }
-.banner-description h1{
+
+.banner-description h1 {
     font-size: 48px;
     line-height: 68px;
     margin-top: 32px;
     font-weight: 800;
 }
-.banner-description p{
+
+.banner-description p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 24px;
+    opacity: 0.7;
     line-height: 26px;
 }
-.banner-description button{
+
+.banner-description button {
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px;
@@ -67,6 +75,78 @@ body{
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
 }
+
 /* banner section end */
 
 /* header section style end */
+
+/* web development sectin start */
+.web-developmet {
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.web-description {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.web-description h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.web-description p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+
+.do-coding {
+    height: 336px;
+    border-radius: 16px;
+    margin: 48px 96px;
+
+}
+
+.coding-description {
+    display: flex;
+    gap: 100px;
+    padding: 48px 48px;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(189, 17, 17, 0) 100%);
+}
+
+
+.coding-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.coding-details p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.learn-more {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-top: 32px;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.7;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+}
+
+/* web development sectin end */
