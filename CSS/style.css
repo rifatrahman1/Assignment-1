@@ -66,12 +66,13 @@ body {
     line-height: 26px;
 }
 
-.banner-description button {
+.banner-description a {
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px;
     margin-top: 32px;
     border-radius: 10px;
+    text-decoration: none;
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
 }
